@@ -2,10 +2,6 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./global.css";
 
-// import App from "./App";
+import { Home } from "./pages/Home";
 
-function App() {
-  return <div className="App"></div>;
-}
-
-ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(<Home />, document.getElementById("root"));
